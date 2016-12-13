@@ -1,4 +1,4 @@
-# Blank Angular2 project template
+# Angular2 Examples
 
 This repository holds basic project that can be used as a quick start template when learning and prototyping with Angular 2 and TypeScript.
 
