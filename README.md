@@ -37,8 +37,9 @@ rd .git /S/Q // windows
  3. Route-example
  4. Form-example
  
+ ```bash
  To run different types of module using 
-  add template tag in @Component of app.component.ts file
+  Add template tag in @Component of app.component.ts file -
  // template:`<message-list></message-list>'   for service-example module
  // template:`<register-form></register-form>' for form-example/template-driven module
  // template:`<model-driven-form></model-driven-form>` for form-example/model-driven module
@@ -50,7 +51,7 @@ rd .git /S/Q // windows
 //           <div class="outer-outlet">
 //             <router-outlet></router-outlet>
 //           </div>`
-
+```
 
 ### Create a new git repo
 
