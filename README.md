@@ -29,6 +29,29 @@ rm -rf .git  // non-Windows
 rd .git /S/Q // windows
 ```
 
+### Run different module
+
+ There are four module -
+ 1. Http-example
+ 2. Service-example
+ 3. Route-example
+ 4. Form-example
+ 
+ To run different types of module using 
+  add template tag in @Component of app.component.ts file
+ // template:`<message-list></message-list>'   for service-example module
+ // template:`<register-form></register-form>' for form-example/template-driven module
+ // template:`<model-driven-form></model-driven-form>` for form-example/model-driven module
+ // template:`<data-list></data-list>` for http-example module
+ // FOR Route Module
+// template: `
+//           <a [routerLink]="['/']">Home</a>
+//           <a [routerLink]="['/about']">About</a>
+//           <div class="outer-outlet">
+//             <router-outlet></router-outlet>
+//           </div>`
+
+
 ### Create a new git repo
 
 If you'd rather preserve your work under source control, consider taking the following steps.
