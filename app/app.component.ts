@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<data-list></data-list>`,
+  template: `<message-list></message-list>`,
 })
 export class AppComponent {}
 
